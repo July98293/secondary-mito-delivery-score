@@ -1,5 +1,5 @@
 # Secondary mito transfer
-This project is ment to check the capacity of a cell to do secondary mitocondria delivery, and to find the best cell that can do that in evry tissue.
+This project evaluates the capacity of immune cells to perform secondary mitochondrial delivery and identifies the optimal cell type for each tissue.
 
 The logic is this:
 
@@ -128,4 +128,4 @@ python visualize_sec_transfer.py
  
 # Disclaimer
  
-Grammar and code review are done with the help of ai, long live claude.
+Grammar and code review are done with the help of ai, long lie claude.
