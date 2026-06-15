@@ -128,4 +128,4 @@ python visualize_sec_transfer.py
  
 # Disclaimer
  
-Grammar and code review are done with the help of ai, long lie claude.
+Grammar and code review are done with the help of ai, long live claude.
