@@ -120,11 +120,7 @@ TOP 5 TISSUES FOR TNT TRANSFER:
 
 # Running the Pipeline
 
-You can run them individualy. Visualize is for transfer score
- 
-```bash
-python visualize_sec_transfer.py       
-```
+You can run them individualy. Visualize is for uber score
  
 # Disclaimer
  
