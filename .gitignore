@@ -1,0 +1,23 @@
+# Large raw data files (not uploaded to GitHub)
+data/
+_gene_expr_cache.npz
+
+# Old outputs
+old ouput, very detail/
+
+# Temp / debug scripts
+_probe.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.venv/
+*.egg-info/
