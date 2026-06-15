@@ -52,7 +52,7 @@ The scoring process follows these steps:
 4. Calculate normalized feature scores for each group
 
  
-The Über Score is lovely called "Über" because the cell essentially acts as an Uber driver for mitochondria :)
+The uber Score is lovely called "uber" because the cell essentially acts as an Uber driver for mitochondria :)
  
 ```
 Über Score = 0.6 × [Σ(w_f × score_f) + 0.10×shedding − 0.25×activation]
@@ -90,7 +90,7 @@ Example Result
 **Best cell for anterior segment of eyeball (blood):**
  
 Neutrophil
-- Über Score = 0.6577
+- Uber Score = 0.6577
 - Strong in:
   - TNT Capacity: 0.987 (excellent nanotube formation)
   - Metabolism: 1.078 (maximum energy)
