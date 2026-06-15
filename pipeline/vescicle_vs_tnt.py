@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 ROOT    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT     = os.path.join(ROOT, "otput")
+OUT     = os.path.join(ROOT, "output")
 CSV_IN  = os.path.join(OUT, "mito_sec_transfer_scores.csv")
 
 VESICLE_COLS = ["Exosome_norm", "Rab Traffic_norm", "MDV_norm", "MV Form._norm", "Shedding_norm"]

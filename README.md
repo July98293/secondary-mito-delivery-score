@@ -1,4 +1,4 @@
-# Secondary mito delivery
+# Secondary mito transfer
 This project is ment to check the capacity of a cell to do secondary mitocondria delivery, and to find the best cell that can do that in evry tissue.
 
 The logic is this:
@@ -72,12 +72,17 @@ The project uses the Human Immune Health Atlas dataset, but any single-cell RNA-
  
 # Results and Output
 
-1. **Cell Type × Tissue Heatmap**: Rows are cell types, columns are tissues. Color intensity represents score strength (red = high, white = absent).
-(!image)()
-2. **Top-Ranked Cells per Tissue**: Displays the best candidate cell type for each tissue with its score breakdown.
-(!image)()
-3. **Feature × Cell Type Heatmap**: Shows expression of individual features (rows) across cell types (columns), stratified by tissue.
-(!image)()
+1. **Cell Type × Tissue Heatmap**
+   
+![Cell Type × Tissue Heatmap](https://github.com/July98293/secondary-mito-delivery-score/blob/main/output/sec_heatmap_celltype_x_tissue.png)
+
+3. **Top-Ranked Cells per Tissue** best candidate cell type for each tissue 
+
+![Cell Type × Tissue Heatmap](https://github.com/July98293/secondary-mito-delivery-score/blob/main/output/sec_best_cell_per_tissue.png)
+
+4. **Feature × Cell x Type of tissue Heatmap**: 
+
+![Cell Type × Tissue Heatmap](https://github.com/July98293/secondary-mito-delivery-score/blob/main/output/sec_heatmap_feature_x_celltype_by_organ.png)
 
 
 Example Result
@@ -114,12 +119,13 @@ TOP 5 TISSUES FOR TNT TRANSFER:
   sublingual gland                     leukocyte                     TNT=0.728
 
 # Running the Pipeline
+
+You can run them individualy. Visualize is for transfer score
  
 ```bash
-python score_vesicle_nanotube.py       # Compute Über Scores
-python visualize_sec_transfer.py       # Generate heatmaps and figures
+python visualize_sec_transfer.py       
 ```
  
 # Disclaimer
  
-Grammar and code review performed with assistance from Claude (Anthropic AI).
+Grammar and code review are done with the help of ai, long lie claude.

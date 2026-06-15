@@ -182,7 +182,7 @@ def load_mitocarta(path):
 def load_surfaceome(path):
     wb  = xlrd.open_workbook(path)
     sh  = wb.sheet_by_name("11.7_Surfaceome")
-    hdr = sh.row_values(1)   # riga 0 = titolo, riga 1 = intestazione
+    hdr = sh.row_values(1)   
 
     gene_col  = hdr.index("UniProt gene")
     desc_col  = hdr.index("UniProt description")
