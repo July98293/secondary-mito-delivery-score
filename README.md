@@ -124,4 +124,4 @@ You can run them individualy. Visualize is for uber score
  
 # Disclaimer
  
-Grammar and code review are done with the help of ai, long lie claude.
+Grammar and code review are done with the help of ai
